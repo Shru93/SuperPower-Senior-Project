@@ -1,0 +1,25 @@
+.right {
+	background-color: #ebf1ed;
+	width: 1000px;
+	margin-left: 300px;
+	border-radius: 3%;
+}
+
+h1 {text-align: center;
+}
+
+.group {
+	margin-left: 430px;
+}
+
+.details {
+	text-align: right;
+	margin-right: 20px;}
+	
+	
+.placeorder {
+	width: 150px;
+	padding: 1em;
+	margin-left: 440px;
+}
+

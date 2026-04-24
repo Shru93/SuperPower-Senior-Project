@@ -1,0 +1,24 @@
+/* centering and positioning the content */
+main {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 80%;
+	text-align: center;
+	line-height: 350%;
+	width: 40%;
+}
+
+/* styling and determing the font-size of the title FAQ*/
+main h1 {
+	text-shadow: 2px 2px 2px #fff;
+	font-size: 300%
+	}
+	
+.questionlist ul li {
+	list-style-type: none;
+	color: blue;
+	font-size:20px;
+	text-decoration: underline;
+}
+
+.click {font-size: 25px;}

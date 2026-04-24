@@ -1,0 +1,25 @@
+/* centering the main for, and it's contents*/
+main {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 80%;
+	text-align: center;
+	line-height: 300%;
+}
+
+/* applying styles on the title*/
+main h1 {text-shadow: 2px 2px 2px #fff;}
+
+/*formatting the sign up button*/
+ .signup {
+	 display: block;
+    margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 20%;
+	background:#083DBA;
+	color: white;
+	border-radius: 5px;
+ }
+
+ 

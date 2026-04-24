@@ -1,0 +1,27 @@
+/* Centering and sizing the title */
+main h1{
+	text-align: center;
+	font-size: 185%;
+	font-family: 'Chakra Petch', sans-serif;
+	text-shadow: 2px 2px 2px solid black;}
+	
+/* Centering the content */
+aside ul{
+	padding: 10px 30px;
+	text-align:center;
+}
+
+/* removing bullet points and determining a width for the email and call us links */
+.contact {
+	list-style-type:none;
+	display: in-line block;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+/* centering the links */
+main ul li {
+	text-align: center;
+}

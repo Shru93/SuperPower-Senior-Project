@@ -1,0 +1,24 @@
+/*applying spacing elements*/
+main { padding: 7px;}
+
+main h1{
+	text-align: center;
+	font-size: 185%;}
+
+#resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+#butt {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+	background:#0A5A98;
+	color: white;
+	border-radius: 10px;
+}
+
