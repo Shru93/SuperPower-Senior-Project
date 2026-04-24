@@ -1,0 +1,51 @@
+/* Postioning the title "About Shruti Patel" */
+section h1 {
+	text-align: center;
+	padding: 8px;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+}
+/* positioning the image to the left and adjusting it's size*/
+section img {
+	float: left;
+	margin: 5px;
+	min-width: 20%;
+	margin-left: 10%;
+	
+}
+/* positioning the about me paragraph section*/
+section p {
+	width: 75%;
+	margin: 5px;
+	text-align: justify;
+	margin-right: 20px;
+	margin-left:10%;
+}
+.info {
+	display: inline;
+	text-align:center;
+	margin-left: 12%;}
+
+.button {
+	align-items: center;
+	background: #0C2F6E;
+	color: white;
+	padding: 5px 35px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.resume { padding: 5px;}
+
+#butt {
+	padding: 5px;
+	background:#0A5A98;
+	color: white;
+	border-radius: 10px;
+}
+
+
+	
+
+	

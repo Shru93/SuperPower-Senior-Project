@@ -1,0 +1,36 @@
+/* giving padding to the whole main section to create extra space around the main */
+main { padding: 10px;}
+
+/* Centering the title */
+aside h1{
+	text-align: center;
+	font-size: 185%;}
+
+/* positioning and sizing image*/
+main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border: 2px solid black;
+ 
+}
+
+/*sizing and positioning the text below the image */
+main p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+	padding: 5px;}
+	
+	
+/*formatting the addtocart buttom so it is centered*/
+.addtocart {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 20%;
+	border-radius: 5px;
+}

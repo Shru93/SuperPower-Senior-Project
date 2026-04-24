@@ -1,0 +1,77 @@
+/* applying background */
+html{background: radial-gradient(#fff, #4682B4);}
+
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col-2 p {text-align: left;}
+
+.col-2 {
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.col-0 img {
+	float: left;
+	width: 33.33%;
+	padding: 5px 5px 30px 10px;
+}
+
+main {padding: 5px 5px 30px 10px;}
+
+main h2 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 90%;
+}
+
+main h2 a {text-decoration: underline;}
+
+.btn {
+	display: inline-block;
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	background: #E7EBF2;
+	color: black;
+	padding: 8px 30px;
+	border-radius: 5px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+
+article {
+	text-align: center;
+	font-family: 'Chakra Petch', sans-serif;
+	padding: 15px; 
+	font-size: 30px;
+	text-shadow: 2px 2px 2px #fff;}
+
+.btn:hover {
+	background: #C2D2EE;
+}
+
+figcaption {
+	display: block;
+	text-align: center;
+	font-family: 'Chakra Petch', sans-serif;
+	margin-bottom: -5%;
+	font-weight: bold;
+	font-size: 200%;
+	text-shadow: 3px 3px 3px #fff;
+}
+
+figure video {
+	display: block;
+	padding: 15px;
+	margin-bottom: auto;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}

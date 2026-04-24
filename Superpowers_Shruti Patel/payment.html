@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<meta charset="utf-8">
+	<title>Checkout</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/pay.css">
+	<link rel="icon" type="logo" href="images/starlogo.png">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" 
+	rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+<header>
+	<!-- LOGO & NAVIGATION MENU -->
+	<aside class="container">
+	<aside class="navbar">
+	<aside class="logo">
+		<a href="index.html"><img class="logo" src="images/starlogo.png"  alt="Avengers Logo" width="100"></a>
+	</aside>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="about.html">About Me</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="subscribe.html">Subscribe</a></li>
+			<li><a href="faqs.html">FAQS</a></li>
+		</ul>
+	</nav>
+		<a href="checkout.html"><img src="images/cart.png" alt="checkout" width="25" height="25"></a>
+	</aside>
+	</aside>
+</header>
+ <div class="right">
+            <h1>Checkout</h1>
+            <div class="form">
+                <div class="group">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" name="name" id="name" required>
+                </div>
+    
+                <div class="group">
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="text" name="phone" id="phone" required>
+                </div>
+					
+				<div class="group">
+                    <label for="cardname">Name on Card:</label><br>
+                    <input type="text" name="cardname" id="cardname" required>
+                </div>
+				
+				<div class="group">
+                    <label for="card">Card Number:</label><br>
+                    <input type="text" name="card" id="card" required>
+                </div>
+				
+				<div class="group">
+                    <label for="date">Expiration Date (ex.09/12):</label><br>
+                    <input type="text" name="date" id="date" required>
+                </div>
+				
+				<div class="group">
+                    <label for="cvv">Security Code (CVV):</label><br>
+                    <input type="text" name="cvv" id="cvv" required>
+                </div>
+    
+                <div class="group">
+                    <label for="address">Address:</label><br>
+                    <input type="text" name="address" id="address" required>
+                </div>
+    
+                <div class="group">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="">Choose..</option>
+                        <option value="">Alabama</option>
+                    </select>
+                </div>
+    
+                <div class="group">
+                    <label for="city">City:</label>
+                    <select name="city" id="city">
+                        <option value="">Choose..</option>
+                        <option value="">Mobile AL</option>
+                        <option value="">Saraland AL</option>
+                        <option value="">Axis AL</option>
+                        <option value="">Satsuma AL</option>
+                        <option value="">Chickasaw AL</option>
+                    </select>
+                </div>
+            </div>
+			<div class="details">
+            <div class="return">
+                <div class="row">
+                    <div>Total Quantity</div>
+                    <div class="totalQuantity">9</div>
+                </div>
+                <div class="row">
+                    <div>Total Price</div>
+                    <div class="totalPrice">$1,209.91</div>
+                </div>
+            </div>
+            </div>
+			 <a href="orderconfirmation.html"><button class="placeorder" >Place Order</button></a>
+			</div>
+<footer>
+<p>&copy; SHRUTI PATEL 2023</p>
+</footer>
+</body>
+</html>
