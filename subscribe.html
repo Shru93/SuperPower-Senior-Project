@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<meta charset="utf-8">
+	<title> Subscribe </title>
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/subscribe.css">
+	<link rel="icon" type="logo" href="images/starlogo.png">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" 
+	rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+<header>
+	<!-- LOGO & NAVIGATION MENU -->
+	<aside class="container">
+	<aside class="navbar">
+	<aside class="logo">
+		<a href="index.html"><img class="logo" src="images/starlogo.png"  alt="Avengers Logo" width="100"></a>
+	</aside>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="about.html">About Me</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="subscribe.html" class="current">Subscribe</a></li>
+			<li><a href="faqs.html">FAQS</a></li>
+		</ul>
+	</nav>
+		<a href="checkout.html"><img src="images/cart.png" alt="checkout" width="25" height="25"></a>
+	</aside>
+	</aside>
+</header>
+	<main>
+		<h1> Fill out this form to get the lastest updates on our products</h1>
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstname" autofocus required><br>
+		
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastname" required><br>
+		
+			<label for="email">Email:</label>
+			<input type="text" id="email" required><br>
+		
+			<label for="birthday">Birthday:</label>
+			<input type="date" id="date" required><br>
+			
+			<label for="age">Please select your age (to verify eligibility)</label><br>
+			<input type="number" id="age" min="18" max="120" step="1" value="18"><br>
+		
+			<label for="mycolor">Select your prefered color:</label>
+			<input type="color" id="mycolor" value="#00000"><br>
+		
+			<form id="upload_picture" action="sendemail.php" method="post" enctype="multipart/form-data">
+				You may upload an image of yourself for your profile picture. (Optional):<br>
+				<input type="file" id="fileupload" accept="image/jpeg, image/gif">
+			</form>
+	
+			<a href="thankyou.html"><button type="button" class="signup" ><strong>Sign Up!</strong></button></a>
+	</main>
+<footer>
+		<p>&copy; SHRUTI PATEL 2023</p>
+</footer>
+</body>
+</html>
